@@ -1,0 +1,25 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "es6",
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"noImplicitAny": false,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"esModuleInterop": true
+	},
+	"include": [
+		"./src/*.ts",
+		"./src/**/*.ts"
+	],
+	"exclude": [
+		"./**/*.var.ts",
+		"./**/*.spec.ts",
+		"./**/*-test.ts",
+		"./*.js",
+		"./**/*.js"
+	]
+}
